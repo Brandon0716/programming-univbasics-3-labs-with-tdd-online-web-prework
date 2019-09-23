@@ -29,4 +29,5 @@ end
    second_number = get_variable_from_file('./calculator.rb', "second_number")
    quotient = get_variable_from_file('./calculator.rb', "quotient")
    
-   expect(quotient).to eq(first_number )
+   expect(quotient).to eq(first_number/second_number)
+ end
