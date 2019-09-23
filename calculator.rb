@@ -19,3 +19,4 @@ first_number = get_variable_from_file('./calculator.rb', "first_number")
     
     expect(difference).to eq(first_number-second_number)
   end
+  bbj
